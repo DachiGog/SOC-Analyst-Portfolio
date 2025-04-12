@@ -26,7 +26,12 @@ Discover frameworks and policies that help establish a good security posture. Le
   - Analyze an Advanced Persistent Threat (APT). 
 
 - Introduction to MITRE
-  -
+  - Focus on other projects/research that the US-based non-profit MITRE Corporation has created for the cybersecurity community, specifically:
+    - ATT&CK ®  ( A dversarial  T actics,  T echniques,  and   C ommon  K nowledge) Framework
+    - CAR ( C yber  A nalytics  R epository) Knowledge Base
+    - ENGAGE  (sorry, not a fancy acronym)
+    - D3FEND ( D etection,  D enial, and  D isruption  F ramework  E mpowering  N etwork  D efense)
+    - AEP ( A TT&CK  E mulation  P lans)
     
 - Mapping logs to MITRE ATT&CK (Initial Access, Execution)
   -   
