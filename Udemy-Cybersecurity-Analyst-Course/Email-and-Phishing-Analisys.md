@@ -36,6 +36,6 @@ In this task, I learned how to analyze suspicious emails by reviewing the **head
 
 ## 📸 Screenshot
 
-![Header Analysis in Sublime](../images/phishing-header-sublime.png)
+![Header Analysis in Sublime](../images/Phishing-Header-Sublime.png)
 
 
