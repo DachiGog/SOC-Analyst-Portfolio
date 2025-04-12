@@ -60,7 +60,7 @@ You are a security analyst who works in the aviation sector. Your organization i
 
 ## 📷 Screenshot
 
-![Scenario 1 Answers](../Screenshots/Cyber Defence Frameworks/Scenario-1-answers.png)
+![Scenario 1 Answers](Screenshots/Cyber Defence Frameworks/Scenario-1-answers.png)
 
 ---
 
