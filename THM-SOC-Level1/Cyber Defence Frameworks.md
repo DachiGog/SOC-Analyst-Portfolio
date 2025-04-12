@@ -43,12 +43,16 @@ Discover frameworks and policies that help establish a good security posture. Le
 - Windows Event Viewer
 - TryHackMe interactive lab environment
 - MITRE ATT&CK framework
+- MITRE Cyber Analytics Repository
+- MITRE ENGAGE Matrix
+- MITRE D3FEND Matrix
+- MITRE AEP Matrix
 
 ---
 
-## 🔍 Sample Analysis
+## 🔍 Scenario Task
 
-While reviewing event logs, I found repeated failed login attempts from a single user account, followed by a successful login and privilege escalation.
+You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc. 
 
 ### Key Event IDs:
 - **4625** (x30) – Failed logins from user `guest1`
