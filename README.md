@@ -34,7 +34,7 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 
 ### 🧪 THM Labs & Writeups
 Hands-on investigations with explanations of how I identified and responded to threats:
-- `THM-SOC-Level-1/WindowsLogs-Investigation.md`
+- `THM-SOC-Level1/Cyber Defence Frameworks.md`
 - `THM-SOC-Level-1/Phishing-Investigation.md`
 - `THM-SOC-Level-1/Splunk-Alert-Triage.md`
 
