@@ -54,13 +54,58 @@ Discover frameworks and policies that help establish a good security posture. Le
 
 You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc.
 
-## 📷 Screenshot
-![Scenario Answers](../Screenshots/Scenario-1-answers.png)
-
 ---
 
 ## ✅ Status: Completed
 
 🔗 [TryHackMe Room Link]((https://tryhackme.com/room/mitre))  
 🕒 Time Spent: ~3 hours
+
+# 🏛️ Pyramid Challenge - TryHackMe
+
+## 🧩 Challenge Type
+This was an investigative-style challenge that tested my ability to **dig into provided data** to find clues, decode information, and piece together a series of answers — similar to a **CTF-style triage puzzle**.
+
+It required:
+- Careful attention to detail
+- Pattern recognition
+- Logical thinking and patience
+
+---
+
+## 🔍 What I Did
+
+- Explored the file closely for **hidden information**
+- Used **online tools and manual inspection** to find embedded clues (metadata, steganography, filenames)
+- Followed a trail of subtle hints and decoded messages to uncover the correct answers
+- Each correct answer led to the next layer of the investigation
+
+---
+
+## 🧠 What I Learned
+
+- How to approach investigative challenges methodically
+- How small clues (like filenames or metadata) can be critical in investigations
+- Importance of documenting each step and hypothesis
+- How real-world triage can involve creative problem-solving, not just tool usage
+
+---
+
+## 💡 Skills Demonstrated
+
+- Analytical thinking
+- Attention to detail
+- Basic steganography and OSINT-style investigation
+- Persistence in multi-layered challenges
+
+---
+
+## 📌 Takeaways
+
+This challenge was a great reminder that not all investigations are technical — some rely on mindset. It strengthened my **SOC investigation workflow**, including documentation, checking assumptions, and breaking down abstract problems.
+
+---
+
+✅ Status: Completed  
+🕒 Time spent: ~1 hour  
 
