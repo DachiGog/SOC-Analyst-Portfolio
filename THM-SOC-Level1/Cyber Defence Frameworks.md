@@ -59,17 +59,8 @@ You are a security analyst who works in the aviation sector. Your organization i
 
 ---
 
-## 📌 Takeaways
-
-- Windows logs are rich in forensic data if you know what to look for
-- Event IDs help quickly categorize activity
-- Triage begins with filtering the noise to find suspicious patterns
-- Documenting timelines and behavior is key for escalation
-
----
-
 ## ✅ Status: Completed
 
-🔗 [TryHackMe Room Link](https://tryhackme.com/room/windowseventlogs)  
-🕒 Time Spent: ~1.5 hours
+🔗 [TryHackMe Room Link]((https://tryhackme.com/room/mitre))  
+🕒 Time Spent: ~3 hours
 
