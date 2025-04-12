@@ -1,4 +1,5 @@
 # SOC Analyst Portfolio 🛡️
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4439576" style='border:none;'></iframe>
 
 Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning and investigations from TryHackMe, home lab exercises, and blue team tooling as I work toward a career in cybersecurity.
 
