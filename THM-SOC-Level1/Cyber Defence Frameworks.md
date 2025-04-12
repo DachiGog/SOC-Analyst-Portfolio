@@ -52,15 +52,10 @@ Discover frameworks and policies that help establish a good security posture. Le
 
 ## 🔍 Scenario Task
 
-You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc. 
-
-
-
----
+You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc.
 
 ## 📷 Screenshot
-
-![Scenario 1 Answers](Screenshots/Cyber Defence Frameworks/Scenario-1-answers.png)
+![Scenario Answers](../Screenshots/Scenario-1-answers.png)
 
 ---
 
