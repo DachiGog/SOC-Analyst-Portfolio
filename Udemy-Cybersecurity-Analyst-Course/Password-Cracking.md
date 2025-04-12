@@ -34,4 +34,4 @@ john --format=raw-md5 hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
 ## 📸 Screenshots
 
-![Event ID 4625](images/John-Hash-Password.png)
+![Cracked Password](../images/John-Hash-Password.png)
