@@ -33,3 +33,28 @@ These are foundational skills for penetration testing and red team recon, as wel
 Host OS: Kali Linux (VirtualBox)
 Target OS: Metasploitable2 (VM)
 
+## 🔍 Scanning Workflow
+### 1. Discover Target with Netdiscover
+
+netdiscover -r 192.168.56.0/24
+🟢 Output example:
+192.168.56.101 - Metasploitable2
+2. Basic Port Scan with Nmap
+nmap 192.168.56.101
+3. OS & Service Version Detection
+nmap -sV -O 192.168.56.101
+✅ Found:
+Apache 2.2.8 (Ubuntu)
+OpenSSH 4.7p1 Debian
+OS: Linux 2.6.X
+4. Full TCP Scan with Verbose Output
+nmap -p- -vv 192.168.56.101
+5. Stealth Scan (SYN Scan)
+nmap -sS 192.168.56.101
+🎭 Evasion Techniques
+nmap -D RND:10 192.168.56.101
+➡️ Sends decoy traffic from fake IPs to obscure true scanner
+Fragmenting Packets
+nmap -f 192.168.56.101
+➡️ Splits probe into small IP fragments to evade firewalls
+nmap --spoof-mac Cisco 192.168.56.101
