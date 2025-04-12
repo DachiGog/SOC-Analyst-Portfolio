@@ -54,19 +54,13 @@ Discover frameworks and policies that help establish a good security posture. Le
 
 You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc. 
 
-### Key Event IDs:
-- **4625** (x30) – Failed logins from user `guest1`
-- **4624** – Successful login from `guest1`
-- **4672** – Special privileges assigned
-- **4688** – Suspicious PowerShell execution
 
-This activity is consistent with a brute-force attack followed by execution of a malicious script.
 
 ---
 
 ## 📷 Screenshot
 
-![Event ID 4625](../images/windows-failed-logons.png)
+![Scenario 1 Answers](../Cyber Defence Frameworks/Scenario-1-answers.png)
 
 ---
 
