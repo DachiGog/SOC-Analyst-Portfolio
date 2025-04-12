@@ -35,8 +35,12 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 ### 🧪 THM Labs & Writeups
 Hands-on investigations with explanations of how I identified and responded to threats:
 - `THM-SOC-Level1/Cyber Defence Frameworks.md`
-- `THM-SOC-Level-1/Phishing-Investigation.md`
-- `THM-SOC-Level-1/Splunk-Alert-Triage.md`
+- `THM-SOC-Level1/Intro to Cyber Threat Intel.md`
+- `Udemy-Cybersecurity-Analyst-Course/Email-and-Phishing-Analisys.md`
+- `Udemy-Cybersecurity-Analyst-Course/Password-Cracking.md`
+- `Udemy-Ethical-Hacking-Bootcamp/Lunux-Operating-System.md`
+- `Udemy-Ethical-Hacking-Bootcamp/Scanning.md`
+- `Udemy-Ethical-Hacking-Bootcamp/Vulnerability-Scanning-and-Exploitation.md`
 
 ### 🛠️ Tool Usage Guides
 - `tools/sysmon-setup-guide.md`
