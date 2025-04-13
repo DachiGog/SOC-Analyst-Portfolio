@@ -14,7 +14,7 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 - [x] SIEM (Splunk)
 - [ ] Threat Intelligence & Triage
 
-🎓 **Udemy: The Complete Hands-On Cybersecurity Analyst Course
+🎓 **Udemy: The Complete Hands-On Cybersecurity Analyst Course**
 
 - [x] Ultimate Cyber Security Primer
 - [x] Password Cracking
@@ -23,7 +23,7 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 - [x] Threat Hunting
 - [ ] Vulnerability Scanning
 
-🎓 **Udemy: Complete Ethical Hacking Bootcamp
+🎓 **Udemy: Complete Ethical Hacking Bootcamp**
 
 - [x] Scanning (Nmap)
 - [x] Gaining Access
