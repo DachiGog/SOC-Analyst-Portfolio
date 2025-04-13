@@ -47,7 +47,7 @@ Hands-on investigations with explanations of how I identified and responded to t
 - `tools/splunk-alerts-cheatsheet.md`
 
 
-###🛡️ Cybersecurity Cheat Sheet
+### 🛡️ Cybersecurity Cheat Sheet
 - `cheetsheets/Cybersecurity-Cheat-Sheet.md`
 
 ### 📝 Simulated Incident Reports
