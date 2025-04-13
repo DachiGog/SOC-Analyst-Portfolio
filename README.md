@@ -48,7 +48,7 @@ Hands-on investigations with explanations of how I identified and responded to t
 
 
 ###🛡️ Cybersecurity Cheat Sheet
--`cheetsheets/Cybersecurity-Cheat-Sheet.md`
+- `cheetsheets/Cybersecurity-Cheat-Sheet.md`
 
 ### 📝 Simulated Incident Reports
 Realistic practice scenarios to simulate alert triage and investigation workflow.
