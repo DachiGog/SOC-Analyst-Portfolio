@@ -59,3 +59,5 @@ _A comprehensive resource for offensive security, pentesters, red teamers, and s
 
 ## 📡 OSI Model
 
++--------+-----------------------------+----------------------------+ | Layer | Name | Example Protocols | +--------+-----------------------------+----------------------------+ | 7 | Application | HTTP, SSH, FTP, DNS | | 6 | Presentation | SSL/TLS, JPEG, ASCII | | 5 | Session | NetBIOS, PPTP | | 4 | Transport | TCP, UDP | | 3 | Network | IP, ICMP | | 2 | Data Link | Ethernet, ARP | | 1 | Physical | Fiber, Copper, Radio | +--------+-----------------------------+----------------------------+
+
