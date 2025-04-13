@@ -1,25 +1,5 @@
 # 🛡️ Cybersecurity Cheat Sheet
 
-_A comprehensive resource for offensive security, pentesters, red teamers, and students._
-
----
-
-## 📚 Table of Contents
-
-- [Acronyms & Terminologies](#acronyms-&-terminologies)
-- [OWASP Top 10 (2023)](#owasp-top-10-(2023))
-- [OSI Model](#osi-model)
-- [Common Attacks](#common-attacks)
-- [Common Ports](#common-ports)
-- [Tools & Suites](#tools--suites)
-- [HTTP Methods & Status Codes](#http-methods--status-codes)
-- [Payload Examples](#payload-examples)
-- [Encoding & Obfuscation](#encoding--obfuscation)
-- [Recon Techniques](#recon-techniques)
-- [MITRE ATT&CK](#mitre-attck)
-- [References & Resources](#references--resources)
-
----
 
 ## 🧩 Acronyms & Terminologies
 
@@ -59,6 +39,7 @@ _A comprehensive resource for offensive security, pentesters, red teamers, and s
 
 ## 📡 OSI Model
 
+- [OSI Model](../images/WHAT-IS-OSI-MODEL-7-LAYERS-EXPLAINED.jpg)
 
 ---
 
