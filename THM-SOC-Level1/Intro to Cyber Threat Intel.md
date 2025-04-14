@@ -5,7 +5,8 @@
 - Cyber threat intelligence (CTI) and various frameworks used to share intelligence. As security analysts, CTI is vital for investigating and reporting against adversary attacks with organisational stakeholders and external communities.
 ---
 ## 📚 Topics Covered
-  ###🔺 Pyramid Of Pain:
+
+  ### 🔺 Pyramid Of Pain:
    - Understanding the Pyramid of Pain concept as a Threat Hunter, Incident Responder, or SOC Analyst is important.
   
 ### 🔗 Cyber Kill Chain:
