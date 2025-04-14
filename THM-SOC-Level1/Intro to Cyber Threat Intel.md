@@ -1,7 +1,8 @@
 # 🛡️ Intro to Cyber Threat Intel - TryHackMe Room Writeup
 ---
 ## 🧠 What I Learned
-Cyber threat intelligence (CTI) and various frameworks used to share intelligence. As security analysts, CTI is vital for investigating and reporting against adversary attacks with organisational stakeholders and external communities.
+
+- Cyber threat intelligence (CTI) and various frameworks used to share intelligence. As security analysts, CTI is vital for investigating and reporting against adversary attacks with organisational stakeholders and external communities.
 ---
 ## 📚 Topics Covered
   🔺 Pyramid Of Pain:
