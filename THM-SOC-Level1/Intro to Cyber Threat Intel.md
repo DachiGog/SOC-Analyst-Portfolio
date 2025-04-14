@@ -1,4 +1,4 @@
-# 🪟CIntro to Cyber Threat Intel - TryHackMe Room Writeup
+# 🪟Intro to Cyber Threat Intel - TryHackMe Room Writeup
 
 ## 🧠 What I Learned
 
