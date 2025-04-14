@@ -5,13 +5,13 @@
 - Cyber threat intelligence (CTI) and various frameworks used to share intelligence. As security analysts, CTI is vital for investigating and reporting against adversary attacks with organisational stakeholders and external communities.
 ---
 ## 📚 Topics Covered
-  🔺 Pyramid Of Pain:
+  ###🔺 Pyramid Of Pain:
    - Understanding the Pyramid of Pain concept as a Threat Hunter, Incident Responder, or SOC Analyst is important.
   
-## 🔗 Cyber Kill Chain:
+### 🔗 Cyber Kill Chain:
   - learn about each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional Cyber Kill Chain.
 
-## ⛓️ Unified Kill Chain
+### ⛓️ Unified Kill Chain
 
 - Understanding why frameworks such as the UKC are important and helpful in establishing a good cybersecurity posture
 - Using the UKC to understand an attacker's motivation, methodologies and tactics
