@@ -1,8 +1,12 @@
-# 🪟Intro to Cyber Threat Intel - TryHackMe Room Writeup
+# 🪟Threat Intelligence Tools - TryHackMe Room Writeup
 
 ## 🧠 What I Learned
 
-Cyber threat intelligence (CTI) and various frameworks used to share intelligence. As security analysts, CTI is vital for investigating and reporting against adversary attacks with organisational stakeholders and external communities.
+- Understanding the basics of threat intelligence & its classifications.
+- Using UrlScan.io to scan for malicious URLs.
+- Using Abuse.ch to track malware and botnet indicators.
+- Investigate phishing emails using PhishTool
+- Using Cisco's Talos Intelligence platform for intel gathering.
 ---
 
 ## 📚 Topics Covered
