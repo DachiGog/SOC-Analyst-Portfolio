@@ -42,7 +42,7 @@ Hands-on investigations with explanations of how I identified and responded to t
 - `Udemy-Ethical-Hacking-Bootcamp/Lunux-Operating-System.md`
 - `Udemy-Ethical-Hacking-Bootcamp/Scanning.md`
 - `Udemy-Ethical-Hacking-Bootcamp/Vulnerability-Scanning-and-Exploitation.md`
-- [Link-Text](THM-SOC-Level1/Cyber-Defence-Frameworks.md)
+- [Cyber Defence Frameworks](THM-SOC-Level1/Cyber-Defence-Frameworks.md)
 ### 🛠️ Tool Usage Guides
 - `tools/sysmon-setup-guide.md`
 - `tools/splunk-alerts-cheatsheet.md`
