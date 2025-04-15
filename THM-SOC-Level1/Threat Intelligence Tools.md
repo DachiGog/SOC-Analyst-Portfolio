@@ -11,10 +11,10 @@
 
 ## 📚 Topics Covered
 
-- ### 🔗 Urlscan.io 
+### 🔗 Urlscan.io 
   - a free service developed to assist in scanning and analysing websites. It is used to automate the process of browsing and crawling through websites to record activities and interactions.
 
-- ### 🔗 Abuse.ch
+### 🔗 Abuse.ch
   - A research project hosted by the Institue for Cybersecurity and Engineering at the Bern University of Applied Sciences in Switzerland. It was developed to identify and track malware and botnets through several operational platforms developed under the project. These platforms are: 
   - MalwareBazaar
   - FeodoTracker
@@ -22,20 +22,29 @@
   - URLhaus
   - ThreatFox
 
-- ### PhishTool
-  - 
+### PhishTool
+  - Email Phishing
+  - PhishTool
+    - Perform email analysis
+    - Heuristic intelligence
+    - Classification and reporting
+
+  ### Cisco Talos Intelligence
+  - https://talosintelligence.com/
 ---
 
 ## 🛠️ Tools Used
 
-- MITRE ATT&CK
-- TryHackMe interactive lab environment
+- [Cyberchef](https://cyberchef.org/)
+- Pluma
+- Thunderbird
 ---
 
 ## 🔍 Scenario 1 Task
 
-mapping out an adversary based on threat intel
-
+You are a SOC Analyst and have been tasked to analyse a suspicious email, Email1.eml. To solve the task, open the email using Thunderbird on the attached VM, analyse it and answer the questions below.
+- [Phishing Analysis in Pluma](images/Phishing-Analysis.png)
+- [Defang IP](images/Phishing-Analysis-defang.png)
 ---
 
 ## ✅ Status: Completed
