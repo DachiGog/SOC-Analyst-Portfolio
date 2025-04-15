@@ -43,8 +43,8 @@
 ## 🔍 Scenario 1 Task
 
 You are a SOC Analyst and have been tasked to analyse a suspicious email, Email1.eml. To solve the task, open the email using Thunderbird on the attached VM, analyse it and answer the questions below.
-- [Phishing Analysis in Pluma](images/Phishing-Analysis.png)
-- [Defang IP](images/Phishing-Analysis-defang.png)
+- [Phishing Analysis in Pluma](../images/Phishing-Analysis.png)
+- [Defang IP](../images/Phishing-Analysis-defang.png)
 ---
 
 ## ✅ Status: Completed
