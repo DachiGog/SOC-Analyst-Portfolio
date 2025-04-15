@@ -11,23 +11,19 @@
 
 ## 📚 Topics Covered
 
-- 🔺 CTI Lifecycle:
-  - Threat intel is obtained from a data-churning process that transforms raw data into contextualised and action-oriented insights geared towards triaging security incidents. The transformational process follows a six-phase cycle:
-  - Direction
-  - Collection
-  - Processing
-  - Analysis
-  - Dissemination
-  - Feedback
+- ### 🔗 Urlscan.io 
+  - a free service developed to assist in scanning and analysing websites. It is used to automate the process of browsing and crawling through websites to record activities and interactions.
 
-- 🔗 CTI Standards & Frameworks
-  - Standards and frameworks provide structures to rationalise the distribution and use of threat intel across industries. They also allow for common terminology, which helps in collaboration and communication. Here, we briefly look at some essential standards and frameworks commonly used.
-  - MITRE ATT&CK
-  - TAXII [TAXII]((https://oasis-open.github.io/cti-documentation/taxii/intro)) 
-  - STIX [STIX]((https://oasis-open.github.io/cti-documentation/stix/intro))
-  - Cyber Kill Chain
-  - The Diamond Model
+- ### 🔗 Abuse.ch
+  - A research project hosted by the Institue for Cybersecurity and Engineering at the Bern University of Applied Sciences in Switzerland. It was developed to identify and track malware and botnets through several operational platforms developed under the project. These platforms are: 
+  - MalwareBazaar
+  - FeodoTracker
+  - SSL Blacklist
+  - URLhaus
+  - ThreatFox
 
+- ### PhishTool
+  - 
 ---
 
 ## 🛠️ Tools Used
