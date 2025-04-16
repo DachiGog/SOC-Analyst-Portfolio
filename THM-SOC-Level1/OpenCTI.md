@@ -15,100 +15,32 @@
   - OpenCTI uses a variety of knowledge schemas in structuring data, the main one being the Structured Threat Information Expression [(STIX2)](https://oasis-open.github.io/cti-documentation/stix/intro) standards
   - ![OpenCTI Data Model](../images/OpenCTIModel.png)
   
-- 🔗 Cyber Kill Chain
-  - learn about each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional Cyber Kill Chain. 
- 
-- ⛓️ Unified Kill Chain
-  - Understanding why frameworks such as the UKC are important and helpful in establishing a good cybersecurity posture
-  - Using the UKC to understand an attacker's motivation, methodologies and tactics
-  - Understanding the various phases of the UKC
-  - Discover that the UKC is a framework that is used to complement other frameworks such as MITRE.
-
-- 💠 Dimond Model
-  - Identify the elements of an intrusion. 
-  - Create a Diamond Model for events such as a breach, intrusion, attack, or incident. 
-  - Analyze an Advanced Persistent Threat (APT). 
-
-- Introduction to MITRE
-  - Focus on other projects/research that the US-based non-profit MITRE Corporation has created for the cybersecurity community, specifically:
-    - ATT&CK ®  ( A dversarial  T actics,  T echniques,  and   C ommon  K nowledge) Framework
-    - CAR ( C yber  A nalytics  R epository) Knowledge Base
-    - ENGAGE  (sorry, not a fancy acronym)
-    - D3FEND ( D etection,  D enial, and  D isruption  F ramework  E mpowering  N etwork  D efense)
-    - AEP ( A TT&CK  E mulation  P lans)
-    
-- Mapping logs to MITRE ATT&CK (Initial Access, Execution)
-  -   
-
 ---
 
 ## 🛠️ Tools Used
 
-- Windows Event Viewer
+- OpenCTI
 - TryHackMe interactive lab environment
-- MITRE ATT&CK framework
-- MITRE Cyber Analytics Repository
-- MITRE ENGAGE Matrix
-- MITRE D3FEND Matrix
-- MITRE AEP Matrix
-
+  
 ---
 
-## 🔍 Scenario 1 Task
+## 🔍 Investigative Scenario
 
-You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc.
+As a SOC analyst, you have been tasked with investigations on malware and APT groups rampaging through the world. Your assignment is to look into the CaddyWiper malware and APT37 group. Gather information from OpenCTI to answer the following questions.
+  - What is the earliest date recorded related to CaddyWiper?  Format: YYYY/MM/DD
+  - ![OpenCTI Task](../images/OpenCTI-Screenshots/OpenCTI-Task-1-01.png)
+  - Which Attack technique is used by the malware for execution?
+  - ![OpenCTI Task](../images/OpenCTI-Screenshots/OpenCTI-Task-1-02.png)
+  - How many malware relations are linked to this Attack technique?
+  - ![OpenCTI Task](../images/OpenCTI-Screenshots/OpenCTI-Task-1-03.png)
+  - Which 3 tools were used by the Attack Technique in 2016? (Ans: Tool1, Tool2, Tool3)
+  - ![OpenCTI Task](../images/OpenCTI-Screenshots/OpenCTI-Task-1-04.png)
+  - What country is APT37 associated with?
+  - ![OpenCTI Task](../images/OpenCTI-Screenshots/OpenCTI-Task-1-05.png)
+  - Which Attack techniques are used by the group for initial access? (Ans: Technique1, Technique2)
+  - ![OpenCTI Task](../images/OpenCTI-Screenshots/OpenCTI-Task-1-06.png)
 
 ---
 
 ## ✅ Status: Completed
 
-🔗 [TryHackMe Room Link]((https://tryhackme.com/room/mitre))  
-🕒 Time Spent: ~3 hours
-
-# 🏛️ Pyramid Challenge - TryHackMe
-
-## 🧩 Challenge Type
-This was an investigative-style challenge that tested my ability to **dig into provided data** to find clues, decode information, and piece together a series of answers — similar to a **CTF-style triage puzzle**.
-
-It required:
-- Careful attention to detail
-- Pattern recognition
-- Logical thinking and patience
-
----
-
-## 🔍 What I Did
-
-- Explored the file closely for **hidden information**
-- Used **online tools and manual inspection** to find embedded clues (metadata, steganography, filenames)
-- Followed a trail of subtle hints and decoded messages to uncover the correct answers
-- Each correct answer led to the next layer of the investigation
-
----
-
-## 🧠 What I Learned
-
-- How to approach investigative challenges methodically
-- How small clues (like filenames or metadata) can be critical in investigations
-- Importance of documenting each step and hypothesis
-- How real-world triage can involve creative problem-solving, not just tool usage
-
----
-
-## 💡 Skills Demonstrated
-
-- Analytical thinking
-- Attention to detail
-- Basic steganography and OSINT-style investigation
-- Persistence in multi-layered challenges
-
----
-
-## 📌 Takeaways
-
-This challenge was a great reminder that not all investigations are technical — some rely on mindset. It strengthened my **SOC investigation workflow**, including documentation, checking assumptions, and breaking down abstract problems.
-
----
-
-✅ Status: Completed  
-🕒 Time spent: ~1 hour  
