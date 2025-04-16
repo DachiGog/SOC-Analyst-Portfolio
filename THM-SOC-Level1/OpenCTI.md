@@ -2,7 +2,7 @@
 
 ## 🧠 What I Learned
 
-### [OpenCTI](https://github.com/OpenCTI-Platform/opencti) is another open-sourced platform designed to provide organisations with the means to manage CTI through the storage, analysis, visualisation and presentation of threat campaigns, malware and IOCs.
+### **[OpenCTI](https://github.com/OpenCTI-Platform/opencti) is another open-sourced platform designed to provide organisations with the means to manage CTI through the storage, analysis, visualisation and presentation of threat campaigns, malware and IOCs.**
 - What is OpenCTI and how is it used?
 - How would I navigate through the platform?
 - What functionalities will be important during a security threat analysis?
