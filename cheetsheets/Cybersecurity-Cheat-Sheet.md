@@ -39,7 +39,7 @@
 
 ## 📡 OSI Model
 
-- [OSI Model](../images/WHAT-IS-OSI-MODEL-7-LAYERS-EXPLAINED.jpg)
+- ![OSI Model](../images/WHAT-IS-OSI-MODEL-7-LAYERS-EXPLAINED.jpg)
 
 ---
 
