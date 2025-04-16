@@ -47,13 +47,18 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 - `Udemy-Ethical-Hacking-Bootcamp/Scanning.md`
 - `Udemy-Ethical-Hacking-Bootcamp/Vulnerability-Scanning-and-Exploitation.md`
 
+---
+
 ### 🛠️ Tool Usage Guides
 - [Sysmon Setup Guide](tools/sysmon-setup-guide.md)
 - [Splunk Alert Cheatsheet](tools/splunk-alerts-cheatsheet.md)
 
+---
 
 ### 🛡️ Cybersecurity Cheat Sheet
 - [Cybersecurity Cheat Sheet](cheetsheets/Cybersecurity-Cheat-Sheet.md)
+
+---
 
 ### 📝 Simulated Incident Reports
 Realistic practice scenarios to simulate alert triage and investigation workflow.
