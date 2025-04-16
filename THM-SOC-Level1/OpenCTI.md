@@ -13,7 +13,8 @@
 
 - ### OpenCTI Data Model:
   - OpenCTI uses a variety of knowledge schemas in structuring data, the main one being the Structured Threat Information Expression [(STIX2)](https://oasis-open.github.io/cti-documentation/stix/intro) standards
-
+  - ![OpenCTI Data Model](../images/OpenCTIModel.png)
+  
 - 🔗 Cyber Kill Chain
   - learn about each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional Cyber Kill Chain. 
  
