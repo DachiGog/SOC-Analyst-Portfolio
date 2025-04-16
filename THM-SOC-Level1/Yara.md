@@ -1,4 +1,4 @@
-# 🪟 Yara - TryHackMe Room Writeup
+# {} Yara - TryHackMe Room Writeup
 
 ## 🧠 What I Learned
 
