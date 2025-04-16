@@ -39,6 +39,7 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 - `THM-SOC-Level1/Threat Intelligence Tools.md`
 - `THM-SOC-Level1/Yara.md`
 - `THM-SOC-Level1/OpenCTI.md`
+- `THM-SOC-Level1/MISP.md`
 ### 🧪 Udemy SOC 1 Writeups
 - `Udemy-Cybersecurity-Analyst-Course/Email-and-Phishing-Analisys.md`
 - `Udemy-Cybersecurity-Analyst-Course/Password-Cracking.md`
