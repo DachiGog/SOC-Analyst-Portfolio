@@ -37,6 +37,8 @@ Hands-on investigations with explanations of how I identified and responded to t
 - `THM-SOC-Level1/Cyber-Defence-Frameworks.md`
 - `THM-SOC-Level1/Intro to Cyber Threat Intel.md`
 - `THM-SOC-Level1/Threat Intelligence Tools.md`
+- `THM-SOC-Level1/Yara.md`
+- `THM-SOC-Level1/OpenCTI.md`
 - `Udemy-Cybersecurity-Analyst-Course/Email-and-Phishing-Analisys.md`
 - `Udemy-Cybersecurity-Analyst-Course/Password-Cracking.md`
 - `Udemy-Ethical-Hacking-Bootcamp/Lunux-Operating-System.md`
