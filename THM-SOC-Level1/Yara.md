@@ -8,22 +8,27 @@ Discover frameworks and policies that help establish a good security posture. Le
 
 ## 📚 Topics Covered
 
-- 🔺 Pyramid Of Pain:
-  - Understanding the Pyramid of Pain concept as a Threat Hunter, Incident Responder, or SOC Analyst is important.
+- 🔺 Yara Rules:
+  - Every rule must have a name and condition. For example, if we wanted to use "myrule.yar" on directory "some directory", we would use the following command:
+yara myrule.yar somedirectory
+-![Yara Rules](images/Yara-Rules.png)
 
-- 🔗 Cyber Kill Chain
-  - learn about each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional Cyber Kill Chain. 
- 
-- ⛓️ Unified Kill Chain
-  - Understanding why frameworks such as the UKC are important and helpful in establishing a good cybersecurity posture
-  - Using the UKC to understand an attacker's motivation, methodologies and tactics
-  - Understanding the various phases of the UKC
-  - Discover that the UKC is a framework that is used to complement other frameworks such as MITRE.
-
-- 💠 Dimond Model
-  - Identify the elements of an intrusion. 
-  - Create a Diamond Model for events such as a breach, intrusion, attack, or incident. 
-  - Analyze an Advanced Persistent Threat (APT). 
+-  ### LOKI 
+  - A free open-source IOC (Indicator of Compromise) scanner created/written by Florian Roth.
+- ### THOR
+  - THOR Lite is Florian's newest multi-platform IOC AND YARA scanner   
+-  ### FENRIR
+  - This is the 3rd tool created by Neo23x0 (Florian Roth)
+- ### YAYA
+  - YAYA is a new open-source tool to help researchers manage multiple YARA rule repositories
+- ### Using LOKI and its Yara rule set
+  - EXAMPLE: cmnatic@thm-yara:~/suspicious-files/file1$ python ../../tools/Loki/loki.py -p .   
+- ### Creating Yara rules with yarGen
+  - EXAMPLE: python3 yarGen.py -m /home/cmnatic/suspicious-files/file2 --excludegood -o /home/cmnatic/suspicious-files/file2.yar 
+      explanation of the parameters above:
+      - -m is the path to the files you want to generate rules for
+      - --excludegood force to exclude all goodware strings (these are strings found in legitimate software and can increase false positives)
+      - -o location & name you want to output the Yara rule 
 
 - Introduction to MITRE
   - Focus on other projects/research that the US-based non-profit MITRE Corporation has created for the cybersecurity community, specifically:
