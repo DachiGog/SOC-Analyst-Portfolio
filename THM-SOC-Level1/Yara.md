@@ -11,7 +11,7 @@ Discover frameworks and policies that help establish a good security posture. Le
 - 🔺 Yara Rules:
   - Every rule must have a name and condition. For example, if we wanted to use "myrule.yar" on directory "some directory", we would use the following command:
 yara myrule.yar somedirectory
--![Yara Rules](images/Yara-Rules.png)
+-![Yara Rules](../images/Yara-Rules.png)
 
 -  ### LOKI 
   - A free open-source IOC (Indicator of Compromise) scanner created/written by Florian Roth.
@@ -22,7 +22,8 @@ yara myrule.yar somedirectory
 - ### YAYA
   - YAYA is a new open-source tool to help researchers manage multiple YARA rule repositories
 - ### Using LOKI and its Yara rule set
-  - EXAMPLE: cmnatic@thm-yara:~/suspicious-files/file1$ python ../../tools/Loki/loki.py -p .   
+  - EXAMPLE: cmnatic@thm-yara:~/suspicious-files/file1$ python ../../tools/Loki/loki.py -p .
+  - ![Loki Scan Result](../images/Loki-Scan-Result-1.png) 
 - ### Creating Yara rules with yarGen
   - EXAMPLE: python3 yarGen.py -m /home/cmnatic/suspicious-files/file2 --excludegood -o /home/cmnatic/suspicious-files/file2.yar 
       explanation of the parameters above:
@@ -30,17 +31,10 @@ yara myrule.yar somedirectory
       - --excludegood force to exclude all goodware strings (these are strings found in legitimate software and can increase false positives)
       - -o location & name you want to output the Yara rule 
 
-- Introduction to MITRE
-  - Focus on other projects/research that the US-based non-profit MITRE Corporation has created for the cybersecurity community, specifically:
-    - ATT&CK ®  ( A dversarial  T actics,  T echniques,  and   C ommon  K nowledge) Framework
-    - CAR ( C yber  A nalytics  R epository) Knowledge Base
-    - ENGAGE  (sorry, not a fancy acronym)
-    - D3FEND ( D etection,  D enial, and  D isruption  F ramework  E mpowering  N etwork  D efense)
-    - AEP ( A TT&CK  E mulation  P lans)
+- ### Valhalla
+  - Valhalla is an online Yara feed created and hosted by [Nextron-Systems](https://www.nextron-systems.com/valhalla/) (erm, Florian Roth)
+  - ![Valhalla hash result](../images/Valhalla-result.png)
     
-- Mapping logs to MITRE ATT&CK (Initial Access, Execution)
-  -   
-
 ---
 
 ## 🛠️ Tools Used
