@@ -21,19 +21,19 @@ With a deep breath, a focused mind, and the longing desire to go home, you began
 - Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
 
 - Who shared the malware samples?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-1.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-1.png)
 - What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-2.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-2.png)
 - Which malware framework utilizes these DLLs as add-on modules?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-3.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-3.png)
 - Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-4.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-4.png)
 - What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-7.png)
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-8.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-7.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-8.png)
 - What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-5.png)
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-6.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-5.png)
+- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-6.png)
 
 ---
 ## ✅ Status: Completed
