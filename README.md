@@ -61,7 +61,10 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 
 ## 📜 Certifications
 - ![Pre-Security](images/PreSec.png)
+- [Certificate Link](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-OAGIOIV6MZ.pdf)
 - ![Security 101](images/SOC-101.png)
+- [Certificate Link](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CZQWKLYLMQ.pdf)
+- ![C++ Certificate](images/cpp-cert.png)
 - 🎓 CompTIA Security+ *(Planning)*
   
 ---
