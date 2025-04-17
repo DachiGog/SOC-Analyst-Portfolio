@@ -33,8 +33,6 @@ With a deep breath, a focused mind, and the longing desire to go home, you began
 - What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
 - ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-5.png)
 - ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-6.png)
----
-## 🔍 What I Did
 
 ---
 ## ✅ Status: Completed
