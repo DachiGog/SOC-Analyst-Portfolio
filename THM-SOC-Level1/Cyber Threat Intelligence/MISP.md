@@ -45,11 +45,11 @@
 
 CIRCL (Computer Incident Respons Center Luxembourg) published an event associated with PupyRAT infection. Your organisation is on alert for remote access trojans and malware in the wild, and you have been tasked to investigate this event and correlate the details with your SIEM. Use what you have learned from the room to identify the event and complete this task.
   - What event ID has been assigned to the PupyRAT event?
-  - ![Task Screen 1](../images/MISP/MISP-Task-1.png)
+  - ![Task Screen 1](../../images/MISP/MISP-Task-1.png)
   - The event is associated with the adversary gaining ______ into organisations.
-  - ![Task Screen 2](../images/MISP/MISP-Task-2.png)
+  - ![Task Screen 2](../../images/MISP/MISP-Task-2.png)
   - What IP address has been mapped as the PupyRAT C2 Server#
-  - ![Task Screen 3](../images/MISP/MISP-Task-3.png)
+  - ![Task Screen 3](../../images/MISP/MISP-Task-3.png)
   
 ---
 
