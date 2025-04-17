@@ -49,6 +49,11 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 - `Udemy-Ethical-Hacking-Bootcamp/Vulnerability-Scanning-and-Exploitation.md`
 
 ---
+## 📜 Certifications
+- ![Pre-Security](../images/PreSec.png)
+- ![Security 101](../images/SOC-101.png)
+- 🎓 CompTIA Security+ *(Planning)*
+---
 
 ### 🛠️ Tool Usage Guides
 - [Sysmon Setup Guide](tools/sysmon-setup-guide.md)
