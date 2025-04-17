@@ -50,8 +50,8 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 
 ---
 ## 📜 Certifications
-- ![Pre-Security](../images/PreSec.png)
-- ![Security 101](../images/SOC-101.png)
+- ![Pre-Security](images/PreSec.png)
+- ![Security 101](images/SOC-101.png)
 - 🎓 CompTIA Security+ *(Planning)*
 ---
 
