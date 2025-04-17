@@ -55,10 +55,16 @@
 
 ---
 
-## 🔍 Scenario 1 Task
+## 🔍 Scenario Task
 
-You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc.
-
+CIRCL (Computer Incident Respons Center Luxembourg) published an event associated with PupyRAT infection. Your organisation is on alert for remote access trojans and malware in the wild, and you have been tasked to investigate this event and correlate the details with your SIEM. Use what you have learned from the room to identify the event and complete this task.
+  - What event ID has been assigned to the PupyRAT event?
+  - ![Task Screen 1](../images/MISP/MISP-Task-1.png)
+  - The event is associated with the adversary gaining ______ into organisations.
+  - ![Task Screen 2](../images/MISP/MISP-Task-2.png)
+  - What IP address has been mapped as the PupyRAT C2 Server#
+  - ![Task Screen 3](../images/MISP/MISP-Task-3.png)
+  
 ---
 
 ## ✅ Status: Completed
