@@ -1,9 +1,10 @@
 # 🛡️ Friday Overtime - Challange
 ---
-## 🧠 What I Learned
----
+
 ## 🛠️ Tools Used
-TryHackMe interactive lab environment
+  - TryHackMe interactive lab environment
+  - MITRE ATT&CK
+  - Google
 ---
 ## 🔍 Scenario 1 Task 
 
