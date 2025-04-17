@@ -5,8 +5,19 @@
 ## 🛠️ Tools Used
 TryHackMe interactive lab environment
 ---
-## 🔍 Scenario 1 Task You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc.
+## 🔍 Scenario 1 Task 
 
+It's a Friday evening at PandaProbe Intelligence when a notification appears on your CTI platform. While most are already looking forward to the weekend, you realise you must pull overtime because SwiftSpend Finance has opened a new ticket, raising concerns about potential malware threats. The finance company, known for its meticulous security measures, stumbled upon something suspicious and wanted immediate expert analysis.
+
+As the only remaining CTI Analyst on shift at PandaProbe Intelligence, you quickly took charge of the situation, realising the gravity of a potential breach at a financial institution. The ticket contained multiple file attachments, presumed to be malware samples.
+
+With a deep breath, a focused mind, and the longing desire to go home, you began the process of:
+
+- Downloading the malware samples provided in the ticket, ensuring they were contained in a secure environment.
+- Running the samples through preliminary automated malware analysis tools to get a quick overview.
+- Deep diving into a manual analysis, understanding the malware's behaviour, and identifying its communication patterns.
+- Correlating findings with global threat intelligence databases to identify known signatures or behaviours.
+- Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
 ---
 ## 🔍 What I Did
 
