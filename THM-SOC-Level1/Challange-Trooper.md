@@ -8,32 +8,26 @@
 ---
 ## 🔍 Scenario 1 Task 
 
-It's a Friday evening at PandaProbe Intelligence when a notification appears on your CTI platform. While most are already looking forward to the weekend, you realise you must pull overtime because SwiftSpend Finance has opened a new ticket, raising concerns about potential malware threats. The finance company, known for its meticulous security measures, stumbled upon something suspicious and wanted immediate expert analysis.
+A multinational technology company has been the target of several cyber attacks in the past few months. The attackers have been successful in stealing sensitive intellectual property and causing disruptions to the company's operations. A threat advisory report about similar attacks has been shared, and as a CTI analyst, your task is to identify the Tactics, Techniques, and Procedures (TTPs) being used by the Threat group and gather as much information as possible about their identity and motive. For this task, you will utilise the OpenCTI platform as well as the MITRE ATT&CK navigator, linked to the details below. 
 
-As the only remaining CTI Analyst on shift at PandaProbe Intelligence, you quickly took charge of the situation, realising the gravity of a potential breach at a financial institution. The ticket contained multiple file attachments, presumed to be malware samples.
-
-With a deep breath, a focused mind, and the longing desire to go home, you began the process of:
-
-- Downloading the malware samples provided in the ticket, ensuring they were contained in a secure environment.
-- Running the samples through preliminary automated malware analysis tools to get a quick overview.
-- Deep diving into a manual analysis, understanding the malware's behaviour, and identifying its communication patterns.
-- Correlating findings with global threat intelligence databases to identify known signatures or behaviours.
-- Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
-
-- Who shared the malware samples?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-1.png)
-- What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-2.png)
-- Which malware framework utilizes these DLLs as add-on modules?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-3.png)
-- Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-4.png)
-- What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-7.png)
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-8.png)
-- What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-5.png)
-- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-6.png)
+- What kind of phishing campaign does APT X use as part of their TTPs?
+- ![Trooper Answer](../images/Trooper/Trooper-1.png)
+- What is the name of the malware used by APT X?
+- ![Trooper Answer](../images/Trooper/Trooper-2.png)
+- What is the malware's STIX ID?
+- ![Trooper Answer](../images/Trooper/Trooper-3.png)
+- With the use of a USB, what technique did APT X use for initial access?
+- ![Trooper Answer](../images/Trooper/Trooper-4.png)
+- On OpenCTI, how many Attack Pattern techniques are associated with the APT?
+- ![Trooper Answer](../images/Trooper/Trooper-5.png)
+- What is the name of the tool linked to the APT?
+- ![Trooper Answer](../images/Trooper/Trooper-6.png)
+- Load up the Navigator. What is the sub-technique used by the APT under Valid Accounts?
+- ![Trooper Answer](../images/Trooper/Trooper-7.png)
+- Under what Tactics does the technique above fall?
+- ![Trooper Answer](../images/Trooper/Trooper-8.png)
+- What technique is the group known for using under the tactic Collection?
+- ![Trooper Answer](../images/Trooper/Trooper-9.png)
 
 ---
 ## ✅ Status: Completed
