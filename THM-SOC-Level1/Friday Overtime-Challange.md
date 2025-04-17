@@ -28,6 +28,9 @@ With a deep breath, a focused mind, and the longing desire to go home, you began
 - Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
 - ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-4.png)
 - What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
+- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-7.png)
+- ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-8.png)
+- What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
 - ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-5.png)
 - ![Friday Test Answer](../images/FridayOvertime/FridayOvertime-task-6.png)
 ---
