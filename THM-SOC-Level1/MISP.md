@@ -1,4 +1,4 @@
-# 🪟 MISP - MALWARE INFORMATION SHARING PLATFORM - TryHackMe Room Writeup
+# 🪟 MISP - Malware Information Sharing Platform - TryHackMe Room Writeup
 
 ## 🧠 What I Learned
 
