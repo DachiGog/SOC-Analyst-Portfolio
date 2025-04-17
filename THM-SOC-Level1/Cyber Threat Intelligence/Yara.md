@@ -23,7 +23,7 @@ yara myrule.yar somedirectory
   - YAYA is a new open-source tool to help researchers manage multiple YARA rule repositories
 - ### Using LOKI and its Yara rule set
   - EXAMPLE: cmnatic@thm-yara:~/suspicious-files/file1$ python ../../tools/Loki/loki.py -p .
-  - ![Loki Scan Result](../images/Loki-Scan-Result-1.png) 
+  - ![Loki Scan Result](../../images/Loki-Scan-Result-1.png) 
 - ### Creating Yara rules with yarGen
   - EXAMPLE: python3 yarGen.py -m /home/cmnatic/suspicious-files/file2 --excludegood -o /home/cmnatic/suspicious-files/file2.yar 
       explanation of the parameters above:
@@ -33,7 +33,7 @@ yara myrule.yar somedirectory
 
 - ### Valhalla
   - Valhalla is an online Yara feed created and hosted by [Nextron-Systems](https://www.nextron-systems.com/valhalla/) (erm, Florian Roth)
-  - ![Valhalla hash result](../images/Valhalla-result.png)
+  - ![Valhalla hash result](../../images/Valhalla-result.png)
     
 ---
 
