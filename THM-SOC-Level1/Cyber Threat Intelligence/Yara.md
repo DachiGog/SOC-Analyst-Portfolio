@@ -11,7 +11,7 @@
 - ### Yara Rules:
   - Every rule must have a name and condition. For example, if we wanted to use "myrule.yar" on directory "some directory", we would use the following command:
 yara myrule.yar somedirectory
--![Yara Rules](../images/Yara-Rules.png)
+-![Yara Rules](../../images/Yara-Rules.png)
 
 -  ### LOKI 
   - A free open-source IOC (Indicator of Compromise) scanner created/written by Florian Roth.
