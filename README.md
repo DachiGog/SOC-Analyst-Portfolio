@@ -11,8 +11,8 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 - [x] Security 101
 - [x] Windows Event Logs
 - [x] Phishing Analysis
-- [x] SIEM (Splunk)
-- [ ] Threat Intelligence & Triage
+- [x] SIEM (Splunk, Snort, WireShark, Splunk)
+- [x] Threat Intelligence & Triage (Yara, openCTI, MISP)
 
 🎓 **Udemy: The Complete Hands-On Cybersecurity Analyst Course**
 
@@ -55,9 +55,12 @@ Welcome to my SOC Analyst portfolio! This repo documents my hands-on learning an
 - 🎓 CompTIA Security+ *(Planning)*
 ---
 
-### 🛠️ Tool Usage Guides
-- [Sysmon Setup Guide](tools/sysmon-setup-guide.md)
-- [Splunk Alert Cheatsheet](tools/splunk-alerts-cheatsheet.md)
+### 🛠️ Tool Using
+| Project | Description | Tools |
+|--------|-------------|-------|
+| **SOC Homelab** | Built a virtual SOC using Wazuh and ELK Stack to monitor and analyze logs. | Wazuh, ELK, VirtualBox |
+| **TryHackMe Labs** | Hands-on rooms focusing on blue team, threat hunting, and log analysis. | Wireshark, Splunk, Suricata |
+| **Log Analysis Practice** | Simulated incidents using Windows event logs and security alerts. | Event Viewer, Sysmon, Sigma Rules |
 
 ---
 
