@@ -1,4 +1,4 @@
-# 🪟 Snort - TryHackMe Room Writeup
+# 🐷 🐽 Snort - TryHackMe Room Writeup
 
 ## 🧠 What I Learned
 
