@@ -10,104 +10,72 @@ The [official description](https://www.snort.org/): "Snort is the foremost Open 
 
 ## 📚 Topics Covered
 
-- 🔺 Pyramid Of Pain:
-  - Understanding the Pyramid of Pain concept as a Threat Hunter, Incident Responder, or SOC Analyst is important.
+- ### Intrusion Detection System (IDS):
+  - IDS is a passive monitoring solution for detecting possible malicious activities/patterns, abnormal incidents, and policy violations. It is responsible for generating alerts for each suspicious event. 
 
-- 🔗 Cyber Kill Chain
-  - learn about each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional Cyber Kill Chain. 
- 
-- ⛓️ Unified Kill Chain
-  - Understanding why frameworks such as the UKC are important and helpful in establishing a good cybersecurity posture
-  - Using the UKC to understand an attacker's motivation, methodologies and tactics
-  - Understanding the various phases of the UKC
-  - Discover that the UKC is a framework that is used to complement other frameworks such as MITRE.
+- ### There are two main types of IDS systems;
 
-- 💠 Dimond Model
-  - Identify the elements of an intrusion. 
-  - Create a Diamond Model for events such as a breach, intrusion, attack, or incident. 
-  - Analyze an Advanced Persistent Threat (APT). 
+  - Network Intrusion Detection System (NIDS) - NIDS monitors the traffic flow from various areas of the network. The aim is to investigate the traffic on the entire subnet. If a signature is identified, an alert is created.
+  - Host-based Intrusion Detection System (HIDS) - HIDS monitors the traffic flow from a single endpoint device. The aim is to investigate the traffic on a particular device. If a signature is identified, an alert is created.
 
-- Introduction to MITRE
-  - Focus on other projects/research that the US-based non-profit MITRE Corporation has created for the cybersecurity community, specifically:
-    - ATT&CK ®  ( A dversarial  T actics,  T echniques,  and   C ommon  K nowledge) Framework
-    - CAR ( C yber  A nalytics  R epository) Knowledge Base
-    - ENGAGE  (sorry, not a fancy acronym)
-    - D3FEND ( D etection,  D enial, and  D isruption  F ramework  E mpowering  N etwork  D efense)
-    - AEP ( A TT&CK  E mulation  P lans)
-    
-- Mapping logs to MITRE ATT&CK (Initial Access, Execution)
-  -   
+- ### ntrusion Prevention System (IPS):
+  
+  - IPS is an active protecting solution for preventing possible malicious activities/patterns, abnormal incidents, and policy violations. It is responsible for stopping/preventing/terminating the suspicious event as soon as the detection is performed.
 
+  ### There are four main types of IPS systems;
+
+  - Network Intrusion Prevention System (NIPS) - NIPS monitors the traffic flow from various areas of the network. The aim is to protect the traffic on the entire subnet. If a signature is identified, the connection is terminated.
+  - Behaviour-based Intrusion Prevention System (Network Behaviour Analysis - NBA) - Behaviour-based systems monitor the traffic flow from various areas of the network. The aim is to protect the traffic on the entire subnet. If an anomaly is identified, the connection is terminated.
+
+- ## Capabilities of Snort;
+
+  - Live traffic analysis
+  - Attack and probe detection
+  - Packet logging
+  - Protocol analysis
+  - Real-time alerting
+  - Modules & plugins
+  - Pre-processors
+  - Cross-platform support! (Linux & Windows)
+
+- ##﻿ Snort in IDS/IPS Mode
+  - IDS/IPS mode helps you manage the traffic according to user-defined rules.
+- ## investigate PCAPs with Snort
+  - Capabilities of Snort are not limited to sniffing, logging and detecting/preventing the threats. PCAP read/investigate mode helps you work with pcap files. Once you have a pcap file and process it with Snort, you will receive default traffic statistics with alerts depending on your ruleset.
+    - *-r / --pcap-single=	Read a single pcap*
+    - *--pcap-list=""	Read pcaps provided in command (space separated).*
+    - *--pcap-show	Show pcap name on console during processing.*
+- ## Snort Rules!
+  - Understanding the Snort rule format is essential for any blue and purple teamer.  The primary structure of the snort rule is shown below;
+  - ![Snort Rules](images/Snort/Snort-Rules.png)
+  - IP Filtering	`alert icmp 192.168.1.56 any <> any any  (msg: "ICMP Packet From "; sid: 100001; rev:1;)`
+  - Filter an IP range	`alert icmp 192.168.1.0/24 any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
+  - Filter multiple IP ranges	`alert icmp [192.168.1.0/24, 10.1.1.0/24] any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
+  - Exclude IP addresses/ranges  `alert icmp !192.168.1.0/24 any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
+  - Port Filtering  `alert tcp any any <> any 21  (msg: "FTP Port 21 Command Activity Detected"; sid: 100001; rev:1;)`
+  - Exclude a specific port  `alert tcp any any <> any !21  (msg: "Traffic Activity Without FTP Port 21 Command Channel"; sid: 100001; rev:1;)`
+  - Filter a port range (Type 1)  `alert tcp any any <> any 1:1024   (msg: "TCP 1-1024 System Port Activity"; sid: 100001; rev:1;)`
+  - Filter a port range (Type 2)  `alert tcp any any <> any :1024   (msg: "TCP 0-1024 System Port Activity"; sid: 100001; rev:1;)`
+  - Filter a port range (Type 3)  `alert tcp any any <> any 1025: (msg: "TCP Non-System Port Activity"; sid: 100001; rev:1;)`
+  - Filter a port range (Type 4)  `alert tcp any any <> any [21,23] (msg: "FTP and Telnet Port 21-23 Activity Detected"; sid: 100001; rev:1;)`
+  - ID	Filtering the IP id field.  `alert tcp any any <> any any (msg: "ID TEST"; id:123456; sid: 100001; rev:1;)`
+  - Flags	
+      Filtering the TCP flags.
+
+        F - FIN
+        S - SYN
+        R - RST
+        P - PSH
+        A - ACK
+        U - URG
 ---
 
 ## 🛠️ Tools Used
 
-- Windows Event Viewer
+- Linux
 - TryHackMe interactive lab environment
-- MITRE ATT&CK framework
-- MITRE Cyber Analytics Repository
-- MITRE ENGAGE Matrix
-- MITRE D3FEND Matrix
-- MITRE AEP Matrix
-
----
-
-## 🔍 Scenario 1 Task
-
-You are a security analyst who works in the aviation sector. Your organization is moving their infrastructure to the cloud. Your goal is to use the ATT&CK® Matrix to gather threat intelligence on APT groups who might target this particular sector and use techniques targeting your areas of concern. You are checking to see if there are any gaps in coverage. After selecting a group, look over the selected group's information and their tactics, techniques, etc.
+- Snort
 
 ---
 
 ## ✅ Status: Completed
-
-🔗 [TryHackMe Room Link]((https://tryhackme.com/room/mitre))  
-🕒 Time Spent: ~3 hours
-
-# 🏛️ Pyramid Challenge - TryHackMe
-
-## 🧩 Challenge Type
-This was an investigative-style challenge that tested my ability to **dig into provided data** to find clues, decode information, and piece together a series of answers — similar to a **CTF-style triage puzzle**.
-
-It required:
-- Careful attention to detail
-- Pattern recognition
-- Logical thinking and patience
-
----
-
-## 🔍 What I Did
-
-- Explored the file closely for **hidden information**
-- Used **online tools and manual inspection** to find embedded clues (metadata, steganography, filenames)
-- Followed a trail of subtle hints and decoded messages to uncover the correct answers
-- Each correct answer led to the next layer of the investigation
-
----
-
-## 🧠 What I Learned
-
-- How to approach investigative challenges methodically
-- How small clues (like filenames or metadata) can be critical in investigations
-- Importance of documenting each step and hypothesis
-- How real-world triage can involve creative problem-solving, not just tool usage
-
----
-
-## 💡 Skills Demonstrated
-
-- Analytical thinking
-- Attention to detail
-- Basic steganography and OSINT-style investigation
-- Persistence in multi-layered challenges
-
----
-
-## 📌 Takeaways
-
-This challenge was a great reminder that not all investigations are technical — some rely on mindset. It strengthened my **SOC investigation workflow**, including documentation, checking assumptions, and breaking down abstract problems.
-
----
-
-✅ Status: Completed  
-🕒 Time spent: ~1 hour  
-
