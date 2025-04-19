@@ -47,7 +47,7 @@ The [official description](https://www.snort.org/): "Snort is the foremost Open 
     - *--pcap-show	Show pcap name on console during processing.*
 - ## Snort Rules!
   - Understanding the Snort rule format is essential for any blue and purple teamer.  The primary structure of the snort rule is shown below;
-  - ![Snort Rules](images/Snort/Snort-Rules.png)
+  - ![Snort Rules](../images/Snort/Snort-Rules.png)
   - IP Filtering	`alert icmp 192.168.1.56 any <> any any  (msg: "ICMP Packet From "; sid: 100001; rev:1;)`
   - Filter an IP range	`alert icmp 192.168.1.0/24 any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
   - Filter multiple IP ranges	`alert icmp [192.168.1.0/24, 10.1.1.0/24] any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
