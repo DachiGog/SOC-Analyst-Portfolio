@@ -72,7 +72,9 @@ The [official description](https://www.snort.org/): "Snort is the foremost Open 
     - sudo gedit /etc/snort/snort.conf
     - sudo gedit /etc/snort/rules/local.rules
 - ## Running snort pcap file with local rules
-    - snort -c local.rules -A full -l . -r TEST.pcap 
+    - snort -c local.rules -A full -l . -r TEST.pcap
+- - ## Reading snort
+    - sudo snort -r Snort_LOG.pcap
 ---
 
 ## 🛠️ Tools Used
