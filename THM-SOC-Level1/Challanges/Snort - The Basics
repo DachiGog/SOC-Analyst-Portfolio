@@ -1,40 +1,45 @@
-# 🛡️ Snort - The Basics - Challange
+# 🐷 🐽 Snort - The Basics - Challange
 ---
 
 ## 🛠️ Tools Used
   - TryHackMe interactive lab environment
-  - MITRE ATT&CK
-  - Google
+  - Snort
+  - Linux
 ---
-## 🔍 Scenario 1 Task 
+## 🔍 Scenario 1 Task - Writing IDS Rules (HTTP)
+Investigate the log file.
 
-It's a Friday evening at PandaProbe Intelligence when a notification appears on your CTI platform. While most are already looking forward to the weekend, you realise you must pull overtime because SwiftSpend Finance has opened a new ticket, raising concerns about potential malware threats. The finance company, known for its meticulous security measures, stumbled upon something suspicious and wanted immediate expert analysis.
+- What is the destination address of packet 63?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-1.png)
+-  What is the ACK number of packet 64?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-2.png)
+- What is the SEQ number of packet 62?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-3.png)
+- What is the TTL of packet 65?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-4.png)
+- What is the source IP of packet 65?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-7.png)
+- What is the source port of packet 65?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-5.png)
 
-As the only remaining CTI Analyst on shift at PandaProbe Intelligence, you quickly took charge of the situation, realising the gravity of a potential breach at a financial institution. The ticket contained multiple file attachments, presumed to be malware samples.
+## 🔍 Scenario 2 Task - create IDS Rules for FTP traffic!
+Investigate the log file.
 
-With a deep breath, a focused mind, and the longing desire to go home, you began the process of:
-
-- Downloading the malware samples provided in the ticket, ensuring they were contained in a secure environment.
-- Running the samples through preliminary automated malware analysis tools to get a quick overview.
-- Deep diving into a manual analysis, understanding the malware's behaviour, and identifying its communication patterns.
-- Correlating findings with global threat intelligence databases to identify known signatures or behaviours.
-- Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
-
-- Who shared the malware samples?
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-1.png)
-- What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-2.png)
-- Which malware framework utilizes these DLLs as add-on modules?
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-3.png)
-- Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-4.png)
-- What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-7.png)
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-8.png)
-- What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-5.png)
-- ![Friday Test Answer](../../images/FridayOvertime/FridayOvertime-task-6.png)
-
+- Write a single rule to detect "all TCP port 21"  traffic in the given pcap.
+What is the number of detected packets?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-2.png)
+- Write a rule to detect failed FTP login attempts in the given pcap.
+What is the number of detected packets?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-3.png)
+- Write a rule to detect successful FTP logins in the given pcap.
+What is the number of detected packets?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-4.png)
+- Write a rule to detect FTP login attempts with a valid username but no password entered yet.
+What is the number of detected packets?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-7.png)
+- Write a rule to detect FTP login attempts with the "Administrator" username but no password entered yet.
+What is the number of detected packets?
+- ![Test Answer](../../images/FridayOvertime/FridayOvertime-task-5.png)
 ---
 ## ✅ Status: Completed
 
