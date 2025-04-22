@@ -4,7 +4,7 @@
 
 NetworkMiner in a Nutshell
 
-###Capability	      Description
+### Capability	      Description
 - Traffic sniffing  *It can intercept the traffic, sniff it, and collect and log packets that pass through the network.*
 - Parsing PCAP files  *It can parse pcap files and show the content of the packets in detail.*
 - Protocol analysis  *It can identify the used protocols from the parsed pcap file.*
