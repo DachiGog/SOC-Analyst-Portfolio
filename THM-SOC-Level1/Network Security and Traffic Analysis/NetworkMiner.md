@@ -1,8 +1,6 @@
-# 🐷 🐽 Snort - TryHackMe Room Writeup
+# NetworkMiner - TryHackMe Room Writeup
 
 ## 🧠 What I Learned
-
-NetworkMiner in a Nutshell
 
 ### Capabilities and Description
 - Traffic sniffing  - *It can intercept the traffic, sniff it, and collect and log packets that pass through the network.*
