@@ -82,7 +82,8 @@ Zeek-cut	Cut specific columns from zeek logs.
             - ==, !=, <, <=, >, >=
   - NOTE!
             - Filters accept string, numeric and regex values.    
-
+- ## Zeek filtering Example
+  - `cat signatures.log | zeek-cut src_addr dst_addr event_msg sub_msg | sort -r| uniq`   
 ---
 
 ## 🛠️ Tools Used
