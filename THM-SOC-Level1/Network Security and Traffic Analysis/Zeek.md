@@ -57,41 +57,32 @@ Zeek-cut	Cut specific columns from zeek logs.
 
 - ##﻿ CLI Kung-Fu Recall: Processing Zeek Logs
   - `cheetsheets/Linux-Basic-Command-Lines.md`
-- ## investigate PCAPs with Snort
-  - Capabilities of Snort are not limited to sniffing, logging and detecting/preventing the threats. PCAP read/investigate mode helps you work with pcap files. Once you have a pcap file and process it with Snort, you will receive default traffic statistics with alerts depending on your ruleset.
-    - *-r / --pcap-single=	Read a single pcap*
-    - *--pcap-list=""	Read pcaps provided in command (space separated).*
-    - *--pcap-show	Show pcap name on console during processing.*
-- ## Snort Rules!
-  - Understanding the Snort rule format is essential for any blue and purple teamer.  The primary structure of the snort rule is shown below;
-  - ![Snort Rules](../../images/Snort/Snort-Rules.png)
-  - IP Filtering	`alert icmp 192.168.1.56 any <> any any  (msg: "ICMP Packet From "; sid: 100001; rev:1;)`
-  - Filter an IP range	`alert icmp 192.168.1.0/24 any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
-  - Filter multiple IP ranges	`alert icmp [192.168.1.0/24, 10.1.1.0/24] any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
-  - Exclude IP addresses/ranges  `alert icmp !192.168.1.0/24 any <> any any  (msg: "ICMP Packet Found"; sid: 100001; rev:1;)`
-  - Port Filtering  `alert tcp any any <> any 21  (msg: "FTP Port 21 Command Activity Detected"; sid: 100001; rev:1;)`
-  - Exclude a specific port  `alert tcp any any <> any !21  (msg: "Traffic Activity Without FTP Port 21 Command Channel"; sid: 100001; rev:1;)`
-  - Filter a port range (Type 1)  `alert tcp any any <> any 1:1024   (msg: "TCP 1-1024 System Port Activity"; sid: 100001; rev:1;)`
-  - Filter a port range (Type 2)  `alert tcp any any <> any :1024   (msg: "TCP 0-1024 System Port Activity"; sid: 100001; rev:1;)`
-  - Filter a port range (Type 3)  `alert tcp any any <> any 1025: (msg: "TCP Non-System Port Activity"; sid: 100001; rev:1;)`
-  - Filter a port range (Type 4)  `alert tcp any any <> any [21,23] (msg: "FTP and Telnet Port 21-23 Activity Detected"; sid: 100001; rev:1;)`
-  - ID	Filtering the IP id field.  `alert tcp any any <> any any (msg: "ID TEST"; id:123456; sid: 100001; rev:1;)`
-  - Flags	
-      Filtering the TCP flags.
 
-        F - FIN
-        S - SYN
-        R - RST
-        P - PSH
-        A - ACK
-        U - URG
-- ## Editing Rules
-    - sudo gedit /etc/snort/snort.conf
-    - sudo gedit /etc/snort/rules/local.rules
-- ## Running snort pcap file with local rules
-    - snort -c local.rules -A full -l . -r TEST.pcap
-- - ## Reading snort
-    - sudo snort -r Snort_LOG.pcap
+- ## Zeek Signatures
+  - Condition Field Available Filters
+  - Header
+           - src-ip: Source IP.
+           - dst-ip: Destination IP.
+           - src-port: Source port.
+           - dst-port: Destination port.
+           - ip-proto: Target protocol. Supported protocols; TCP, UDP, ICMP, ICMP6, IP, IP6     
+  - Content
+            - payload: Packet payload.
+            - http-request: Decoded HTTP requests.
+            - http-request-header: Client-side HTTP headers.
+            - http-request-body: Client-side HTTP request bodys.
+            - http-reply-header: Server-side HTTP headers.
+            - http-reply-body: Server-side HTTP request bodys.
+            - ftp: Command line input of FTP sessions.
+  - Context
+            - same-ip: Filtering the source and destination addresses for duplication.     
+  - Action
+            - event: Signature match message.
+  - Comparison Operators
+            - ==, !=, <, <=, >, >=
+  - NOTE!
+            - Filters accept string, numeric and regex values.    
+
 ---
 
 ## 🛠️ Tools Used
