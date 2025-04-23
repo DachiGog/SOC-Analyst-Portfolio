@@ -119,6 +119,13 @@ Zeek-cut	Cut specific columns from zeek logs.
 
         zeek -C -r ftp.pcap 201.zeek -s ftp-admin.sig | wc -l
         cat signatures.log | zeek-cut sub_msg | grep "USER administrator" | wc -l
+
+- ## Zeek Scripts | Frameworks
+  - File Framework | Hashes
+    - You can easily see the usage of frameworks in scripts by calling a specific framework as `load @ $PATH/base/frameworks/framework-name `
+                ``` ubuntu@ubuntu$ cat hash-demo.zeek 
+                  # Enable MD5, SHA1 and SHA256 hashing for all files.
+                  @load /opt/zeek/share/zeek/policy/frameworks/files/hash-all-files.zeek```
 ---
 
 ## 🛠️ Tools Used
