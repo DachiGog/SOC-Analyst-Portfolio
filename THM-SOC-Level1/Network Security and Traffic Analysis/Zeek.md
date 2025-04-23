@@ -123,9 +123,9 @@ Zeek-cut	Cut specific columns from zeek logs.
 - ## Zeek Scripts | Frameworks
   - File Framework | Hashes
     - You can easily see the usage of frameworks in scripts by calling a specific framework as `load @ $PATH/base/frameworks/framework-name `
-               <pre/> ``` ubuntu@ubuntu$ cat hash-demo.zeek 
+               <pre/> ubuntu@ubuntu$ cat hash-demo.zeek 
                   # Enable MD5, SHA1 and SHA256 hashing for all files.
-                  @load /opt/zeek/share/zeek/policy/frameworks/files/hash-all-files.zeek```</pre>
+                  @load /opt/zeek/share/zeek/policy/frameworks/files/hash-all-files.zeek </pre>
 ---
 
 ## 🛠️ Tools Used
