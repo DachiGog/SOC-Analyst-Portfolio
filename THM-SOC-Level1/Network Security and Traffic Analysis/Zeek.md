@@ -101,7 +101,7 @@ Zeek-cut	Cut specific columns from zeek logs.
 
 - Linux
 - TryHackMe interactive lab environment
-- Snort
+- Zeek
 
 ---
 
