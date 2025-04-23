@@ -138,8 +138,8 @@ Zeek-cut	Cut specific columns from zeek logs.
       -  Extract files
      <pre/> ubuntu@ubuntu$ zeek -C -r case1.pcap /opt/zeek/share/zeek/policy/frameworks/files/extract-all-files.zeek
 
-ubuntu@ubuntu$ ls
-101.zeek  102.zeek  103.zeek  case1.pcap  clear-logs.sh  conn.log  dhcp.log  dns.log  extract_files  files.log  ftp.pcap  http.log  packet_filter.log  pe.log  </pre>
+            ubuntu@ubuntu$ ls
+            101.zeek  102.zeek  103.zeek  case1.pcap  clear-logs.sh  conn.log  dhcp.log  dns.log  extract_files  files.log  ftp.pcap  http.log  packet_filter.log  pe.log  </pre>
 ---
 
 ## 🛠️ Tools Used
