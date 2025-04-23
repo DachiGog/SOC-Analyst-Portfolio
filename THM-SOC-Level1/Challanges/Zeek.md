@@ -1,9 +1,9 @@
-# 🛡️ Friday Overtime - Challange
+# 🛡️ Zeek - Challange
 ---
 
 ## 🛠️ Tools Used
   - TryHackMe interactive lab environment
-  - MITRE ATT&CK
+  - Zeek
   - Google
 ---
 ## 🔍 Scenario 1 Task - Anomalous DNS
