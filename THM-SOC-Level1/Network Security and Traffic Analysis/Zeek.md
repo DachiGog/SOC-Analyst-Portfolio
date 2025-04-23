@@ -104,11 +104,11 @@ Zeek-cut	Cut specific columns from zeek logs.
 event zeek_done()
     {
     print ("Stopped Zeek!");
-    }``` </pre>
+    }
 
 # zeek_init: Do actions once Zeek starts its process.
 # zeek_done: Do activities once Zeek finishes its process.
-# print: Prompt a message on the terminal.
+# print: Prompt a message on the terminal.``` </pre>
 ---
 
 ## 🛠️ Tools Used
