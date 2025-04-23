@@ -95,6 +95,20 @@ Zeek-cut	Cut specific columns from zeek logs.
         -  "/opt/zeek/share/zeek/policy".
   -  "/opt/zeek/share/zeek/policy".
         - "/opt/zeek/share/zeek/site/local.zeek".  
+
+- ## Scripts 101 | Write Basic Scripts
+  <pre> ```event zeek_init()
+    {
+     print ("Started Zeek!");
+    }
+event zeek_done()
+    {
+    print ("Stopped Zeek!");
+    }``` </pre>
+
+# zeek_init: Do actions once Zeek starts its process.
+# zeek_done: Do activities once Zeek finishes its process.
+# print: Prompt a message on the terminal.
 ---
 
 ## 🛠️ Tools Used
