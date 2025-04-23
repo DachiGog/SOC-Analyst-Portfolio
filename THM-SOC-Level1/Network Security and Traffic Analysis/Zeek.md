@@ -159,6 +159,28 @@ Zeek-cut	Cut specific columns from zeek logs.
           ubuntu@ubuntu$ cat intel.log | zeek-cut uid id.orig_h id.resp_h seen.indicator matched
           CZ1jLe2nHENdGQX377	10.6.27.102	10.6.27.1	smart-fax.com	Intel::DOMAIN	
           C044Ot1OxBt8qCk7f2	10.6.27.102	107.180.50.162	smart-fax.com	Intel::DOMAIN </pre>
+
+  - ## Scripts 204 | Package Manager
+    - The package manager is installed with Zeek and available with the zkg command
+      - `zkg install package_path` Install a package. Example (zkg install zeek/j-gras/zeek-af_packet-plugin).
+      - `zkg install git_url` Install package. Example (zkg install https://github.com/corelight/ztest).
+      - `zkg list` List installed package.
+      - `zkg remove` Remove installed package.
+      - `zkg refresh` Check version updates for installed packages.
+      - `zkg upgrade` Update installed packages.
+    - Execute/load package
+         <pre/>  ### Calling with script
+                ubuntu@ubuntu$ zeek -Cr http.pcap sniff-demo.zeek 
+
+                ### View script contents
+                ubuntu@ubuntu$ cat sniff-demo.zeek 
+                @load /opt/zeek/share/zeek/site/zeek-sniffpass
+
+                ### Calling from path
+                ubuntu@ubuntu$ zeek -Cr http.pcap /opt/zeek/share/zeek/site/zeek-sniffpass
+
+                ### Calling with package name
+                ubuntu@ubuntu$ zeek -Cr http.pcap zeek-sniffpass </pre>
 ---
 
 ## 🛠️ Tools Used
