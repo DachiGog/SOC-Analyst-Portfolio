@@ -169,18 +169,18 @@ Zeek-cut	Cut specific columns from zeek logs.
       - `zkg refresh` Check version updates for installed packages.
       - `zkg upgrade` Update installed packages.
     - Execute/load package
-         <pre/>  ### Calling with script
+         <pre/> ### Calling with script
                 ubuntu@ubuntu$ zeek -Cr http.pcap sniff-demo.zeek 
 
-                ### View script contents
-                ubuntu@ubuntu$ cat sniff-demo.zeek 
-                @load /opt/zeek/share/zeek/site/zeek-sniffpass
+          ### View script contents
+          ubuntu@ubuntu$ cat sniff-demo.zeek 
+          @load /opt/zeek/share/zeek/site/zeek-sniffpass
 
-                ### Calling from path
-                ubuntu@ubuntu$ zeek -Cr http.pcap /opt/zeek/share/zeek/site/zeek-sniffpass
+          ### Calling from path
+          ubuntu@ubuntu$ zeek -Cr http.pcap /opt/zeek/share/zeek/site/zeek-sniffpass
 
-                ### Calling with package name
-                ubuntu@ubuntu$ zeek -Cr http.pcap zeek-sniffpass </pre>
+          ### Calling with package name
+          ubuntu@ubuntu$ zeek -Cr http.pcap zeek-sniffpass </pre>
 ---
 
 ## 🛠️ Tools Used
