@@ -4,6 +4,7 @@
 
 "Zeek (formerly Bro) is the world's leading platform for network security monitoring. Flexible, open-source, and powered by defenders." "Zeek is a passive, open-source network traffic analyser. Many operators use Zeek as a network security monitor (NSM) to support suspicious or malicious activity investigations. Zeek also supports a wide range of traffic analysis tasks beyond the security domain, including performance measurement and troubleshooting."
 
+[Zeek script Learning Platform](https://try.bro.org/#/?example=hello)
 ---
 
 ## 📚 Topics Covered
@@ -84,6 +85,16 @@ Zeek-cut	Cut specific columns from zeek logs.
             - Filters accept string, numeric and regex values.    
 - ## Zeek filtering Example
   - `cat signatures.log | zeek-cut src_addr dst_addr event_msg sub_msg | sort -r| uniq`   
+
+- ## Zeek Scripts
+  - Zeek has base scripts installed by default, and these are not intended to be modified.
+        -  "/opt/zeek/share/zeek/base".
+  - User-generated or modified scripts should be located in a specific path.
+        - "/opt/zeek/share/zeek/site".
+  - Policy scripts are located in a specific path.
+        -  "/opt/zeek/share/zeek/policy".
+  -  "/opt/zeek/share/zeek/policy".
+        - "/opt/zeek/share/zeek/site/local.zeek".  
 ---
 
 ## 🛠️ Tools Used
