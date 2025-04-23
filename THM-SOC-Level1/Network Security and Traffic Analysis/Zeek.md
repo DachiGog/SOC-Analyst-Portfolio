@@ -113,6 +113,12 @@ Zeek-cut	Cut specific columns from zeek logs.
       ubuntu@ubuntu$ zeek -C -r sample.pcap 101.zeek 
       Started Zeek!
       Stopped Zeek!
+  - ## Script Examples
+            zeek -C -r sample.pcap 103.zeek
+            cat conn.log | zeek-cut uid | sort | uniq | wc -l
+
+        zeek -C -r ftp.pcap 201.zeek -s ftp-admin.sig | wc -l
+        cat signatures.log | zeek-cut sub_msg | grep "USER administrator" | wc -l
 ---
 
 ## 🛠️ Tools Used
