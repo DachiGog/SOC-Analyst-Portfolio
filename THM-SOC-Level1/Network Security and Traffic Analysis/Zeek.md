@@ -140,6 +140,18 @@ Zeek-cut	Cut specific columns from zeek logs.
 
             ubuntu@ubuntu$ ls
             101.zeek  102.zeek  103.zeek  case1.pcap  clear-logs.sh  conn.log  dhcp.log  dns.log  extract_files  files.log  ftp.pcap  http.log  packet_filter.log  pe.log  </pre>
+
+      -  Investigate Files
+       <pre/>  ubuntu@ubuntu$ ls extract_files | nl
+     1	extract-1561667874.743959-HTTP-Fpgan59p6uvNzLFja
+     2	extract-1561667889.703239-HTTP-FB5o2Hcauv7vpQ8y3
+     3	extract-1561667899.060086-HTTP-FOghls3WpIjKpvXaEl
+
+        ubuntu@ubuntu$ cd extract_files
+
+        ubuntu@ubuntu$ file *| nl
+     1	extract-1561667874.743959-HTTP-Fpgan59p6uvNzLFja:  ASCII text, with no line terminators
+     2	extract-1561667889.703239-HTTP-FB5o2Hcauv7vpQ8y3:  Composite Document File V2 Document, Little Endian, Os: Windows, Version 6.3, Code page: 1252, Template: Normal.dotm, Last Saved By: Administrator, Revision             Number: 2, Name of Creating Application: Microsoft Office Word, Create Time/Date: Thu Jun 27 18:24:00 2019, Last Saved Time/Date: Thu Jun 27 18:24:00 2019, Number of Pages: 1, Number of Words: 0, Number of Characters: 1, Security: 0 </pre>
 ---
 
 ## 🛠️ Tools Used
