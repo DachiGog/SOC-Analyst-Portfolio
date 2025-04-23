@@ -109,6 +109,10 @@ Zeek-cut	Cut specific columns from zeek logs.
       # zeek_init: Do actions once Zeek starts its process.
       # zeek_done: Do activities once Zeek finishes its process.
       # print: Prompt a message on the terminal. </pre>
+
+      ubuntu@ubuntu$ zeek -C -r sample.pcap 101.zeek 
+      Started Zeek!
+      Stopped Zeek!
 ---
 
 ## 🛠️ Tools Used
