@@ -30,6 +30,22 @@ Brim is an open-source desktop application that processes pcap files and logs fi
   - Detect Files `filename!=null`
   - Known Patterns `event_type=="alert" or _path=="notice" or _path=="signatures"`
 
+- ## Exercise: Threat Hunting with Brim | Malware C2 Detection
+  
+  It is just another malware campaign spread with CobaltStrike. We know an employee clicks on a link, downloads a file, and then network speed issues and anomalous traffic activity arises
+
+  - First I Reviewed the frequently communicated hosts before starting to investigate individual logs `cut id.orig_h, id.resp_p, id.resp_h | sort  | uniq -c | sort -r count`
+  - ![](../../images/Brim/Brim-challange-1-1.png)
+  - After first glance IPs 10.22.xx" and "104.168.xx draw attention  `_path=="conn" | cut id.resp_p, service | sort | uniq -c | sort -r count`
+  - ![](../../images/Brim/Brim-challange-1-2.png)
+  - Nothing extremely odd in port numbers, but there is a massive DNS record available. Let's have a closer look. `_path=="dns" | count() by query | sort -r`
+  - ![](../../images/Brim/Brim-challange-1-3.png)
+  - ![](../../images/Brim/Brim-challange-1-4.png)
+  - We detect a file download request from the IP address we assumed as malicious. Let's validate this idea with VirusTotal and validate our hypothesis.
+  - ![](../../images/Brim/Brim-challange-1-5.png)
+  - ![](../../images/Brim/Brim-challange-1-6.png)
+  - Now let's conclude our hunt by gathering with Suricata logs.
+  - ![](../../images/Brim/Brim-challange-1-7.png)
 ---
 
 ## 🛠️ Tools Used
