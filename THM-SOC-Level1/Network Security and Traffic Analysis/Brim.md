@@ -2,8 +2,7 @@
 
 ## 🧠 What I Learned
 
-Brim is an open-source desktop application that processes pcap files and logs files, with a primary focus on providing search and analytics. It uses the Zeek log processing format. It also supports Zeek signatures and Suricata Rules for detection.
-[Zeek script Learning Platform](https://try.bro.org/#/?example=hello)
+  Brim is an open-source desktop application that processes pcap files and logs files, with a primary focus on providing search and analytics. It uses the Zeek log processing format. It also supports Zeek signatures and Suricata Rules for detection.
 ---
 
 ## 📚 Topics Covered
