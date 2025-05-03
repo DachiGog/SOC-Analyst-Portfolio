@@ -7,10 +7,7 @@ The Windows Event Logs are not text files that can be viewed using a text editor
 
 ## 📚 Topics Covered
 
-- 🔺 Pyramid Of Pain:
-  - Understanding the Pyramid of Pain concept as a Threat Hunter, Incident Responder, or SOC Analyst is important.
-
-- 🔗 Cyber Kill Chain
+- Event Viewer
   - learn about each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional Cyber Kill Chain. 
  
 - ⛓️ Unified Kill Chain
@@ -56,55 +53,3 @@ You are a security analyst who works in the aviation sector. Your organization i
 ---
 
 ## ✅ Status: Completed
-
-🔗 [TryHackMe Room Link]((https://tryhackme.com/room/mitre))  
-🕒 Time Spent: ~3 hours
-
-# 🏛️ Pyramid Challenge - TryHackMe
-
-## 🧩 Challenge Type
-This was an investigative-style challenge that tested my ability to **dig into provided data** to find clues, decode information, and piece together a series of answers — similar to a **CTF-style triage puzzle**.
-
-It required:
-- Careful attention to detail
-- Pattern recognition
-- Logical thinking and patience
-
----
-
-## 🔍 What I Did
-
-- Explored the file closely for **hidden information**
-- Used **online tools and manual inspection** to find embedded clues (metadata, steganography, filenames)
-- Followed a trail of subtle hints and decoded messages to uncover the correct answers
-- Each correct answer led to the next layer of the investigation
-
----
-
-## 🧠 What I Learned
-
-- How to approach investigative challenges methodically
-- How small clues (like filenames or metadata) can be critical in investigations
-- Importance of documenting each step and hypothesis
-- How real-world triage can involve creative problem-solving, not just tool usage
-
----
-
-## 💡 Skills Demonstrated
-
-- Analytical thinking
-- Attention to detail
-- Basic steganography and OSINT-style investigation
-- Persistence in multi-layered challenges
-
----
-
-## 📌 Takeaways
-
-This challenge was a great reminder that not all investigations are technical — some rely on mindset. It strengthened my **SOC investigation workflow**, including documentation, checking assumptions, and breaking down abstract problems.
-
----
-
-✅ Status: Completed  
-🕒 Time spent: ~1 hour  
-
