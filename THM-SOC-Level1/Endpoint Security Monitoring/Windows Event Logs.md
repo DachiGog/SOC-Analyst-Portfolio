@@ -1,9 +1,8 @@
-# 🪟Cyber Defence Frameworks - TryHackMe Room Writeup
+# 🪟 Windows Event Logs - TryHackMe Room Writeup
 
 ## 🧠 What I Learned
 
-Discover frameworks and policies that help establish a good security posture. Learn how organisations use these in defensive strategies.
-
+The Windows Event Logs are not text files that can be viewed using a text editor. However, the raw data can be translated into XML using the Windows API. The events in these log files are stored in a proprietary binary format with a .evt or .evtx extension. The log files with the .evtx file extension typically reside in `C:\Windows\System32\winevt\Logs` .
 ---
 
 ## 📚 Topics Covered
