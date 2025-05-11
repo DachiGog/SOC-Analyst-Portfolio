@@ -1,6 +1,6 @@
-https://mxtoolbox.com/
-https://phishtank.com/?
-https://www.spamhaus.org/
+- https://mxtoolbox.com/
+- https://phishtank.com/?
+- https://www.spamhaus.org/
 
 ![](../../images/Phishing/Phishing1-0.png)
 ![](../../images/Phishing/Phishing1-1.png)
